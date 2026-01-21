@@ -1,0 +1,24 @@
+
+functional requirements:
+1.0 user can : Register / Login
+1.1 user should be able to search the restaurant by location.
+2. user can view the restaurants menu.
+3. user can add/remove food in/from the cart.
+4. user can place an order.
+5. user can make payment.
+6. user can recieve order status notification.
+7. user can see history.
+
+non-functional requirements:
+1. High availability(search).
+2. scalability(peak during lunch/dinner).
+3. low latency for search and menu fetch.
+4. data consistency for order and payments.
+5. fault tolerence(payment failures).
+
+Out of scope:
+1. Discounts, coupons, wallet
+2. Ratings & reviews
+3. no delivery management
+4. no partial payment
+5. 
